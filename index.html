@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cara - Modern E-Commerce Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <a href="#" class="logo">Cara</a>
+    <nav>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h4>Trade-in-offer</h4>
+    <h2>Super value deals</h2>
+    <h1>On all products</h1>
+    <p>Save more with coupons & up to 70% off!</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="shop" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Summer Collection - New Modern Design</p>
+    <div class="pro-container">
+      
+      <!-- Product 1 -->
+      <div class="pro">
+        <img src="https://via.placeholder.com/250" alt="Product 1">
+        <div class="des">
+          <span>adidas</span>
+          <h5>Cartoon Astronaut T-Shirt</h5>
+          <h4>$78</h4>
+        </div>
+        <button class="add-cart-btn" onclick="addToCart('Cartoon Astronaut T-Shirt', 78)">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="pro">
+        <img src="https://via.placeholder.com/250" alt="Product 2">
+        <div class="des">
+          <span>nike</span>
+          <h5>Classic Cotton Shirt</h5>
+          <h4>$65</h4>
+        </div>
+        <button class="add-cart-btn" onclick="addToCart('Classic Cotton Shirt', 65)">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Cara E-Commerce Platform. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
